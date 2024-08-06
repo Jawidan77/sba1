@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Your Business Name</title>
+    <link rel="stylesheet" href="./sba307.css">
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="./Homepage.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Menus</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Ingredients</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Qabili</td>
+                        <td>Meat, rice, raisins, carrots, onion, garlic, spices</td>
+                    </tr>
+                    <tr>
+                        <td>Zirishk Palaw</td>
+                        <td>Rice, chicken, zirishk, and spices</td>
+                    </tr>
+                    <tr>
+                        <td>Bolani</td>
+                        <td>Wheat flour, vegetables, and potato</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetable Soup</td>
+                        <td>Peas, lentils, onions, carrots, tomatoes, lemon juice</td>
+                    </tr>
+                    <tr>
+                        <td>Adas Palaw</td>
+                        <td>Lentils, rice, oil, garlic, and onion</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Order Now</h2>
+            <form>
+                <label for="dish">Choose a dish:</label>
+                <select id="dish" name="dish">
+                    <option value="qabili">Qabili</option>
+                    <option value="zirishk-palaw">Zirishk Palaw</option>
+                    <option value="bolani">Bolani</option>
+                    <option value="vegetable-soup">Vegetable Soup</option>
+                    <option value="adas-palaw">Adas Palaw</option>
+                </select>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+                <br>
+                <button type="submit">Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Business Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
